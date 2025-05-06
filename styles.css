@@ -1,0 +1,48 @@
+
+body {
+    height: 2000px;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.static-box {
+    position: static;
+    background-color: steelblue;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+    background-color: teal;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-color: tomato;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: purple;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: green;
+}
+
+.opacity-box {
+    background-color: black;
+    opacity: 0.5;
+}
